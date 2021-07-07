@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <input class="var1" type="text" > Ingresa un numero <br><br>
+    <input class="var2" type="text"> Ingresa otro numero <br><br>
+    Respuesta: <input type="text" class="res"> 
+    <p></p>
+
+    <input type="button"  value="SUMA" onClick='suma()'>
+   
+  
+
+    
+  
+   
+
+    <script>
+
+ function suma(){
+    let var1= Number( document.getElementsByClassName('var1').value);
+    let var2= Number( document.getElementsByClassName('var2').value);
+    var res= var1+var2;
+    document.getElementsByClassName("res").value=res;
+ }
+      
+    </script>
+</body>
+</html>
