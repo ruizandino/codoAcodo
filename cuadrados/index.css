@@ -1,0 +1,29 @@
+.cuadrados{
+    display: flex;
+    margin-top: 4%;
+    height: 40vh;
+  
+}
+.cuadrados div{
+    background-color: red;
+    width: 30%;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+.cuadrados :nth-child(2){
+    background-color: black;   
+    
+}
+
+.cuadrados :nth-child(2) p{
+    color:white; 
+    
+}
+
+p{
+    margin: 2%;
+    font-size: 40px;
+    color: yellow;
+}
